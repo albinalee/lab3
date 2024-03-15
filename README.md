@@ -95,6 +95,54 @@ header ul li:hover ul.dropdown {
 	display: block;
 }</code>
 </br></br>
+<p>Создание формы:</p>
+<code>form {
+	color: white;
+	background-color: #4e4e4e;
+	border-radius: 50px;
+	padding: 30px 0;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto 50px;
+}
+form h1 {
+	text-align: center;
+	margin: 10px 0;
+}
+form h3 {
+	margin: 30px 0 0 75px;
+}
+form input, textarea {
+	display: block;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 60%;
+	margin: 0 auto;
+	outline: 2px solid purple;
+}
+form textarea {
+	width: 80%;
+	height: 50%;
+}
+.submit {
+	margin-top: 30px;
+	width: 35%;
+	height: 40px;
+	background-color: #b44c97;
+	box-shadow: 3px 3px #7a4171;
+}
+.submit:hover {
+	opacity: 0.8;
+	transition: .5s;
+}
+.submit:active {
+	position: relative;
+	top: 3px;
+	left: 3px;
+	box-shadow: none;
+}</code>
+</br></br>
 <p>Стилизация таблицы:</p>
 <code>table {	
 	border-collapse: collapse;
