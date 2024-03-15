@@ -97,7 +97,7 @@ table {
 	border-collapse: collapse;
 	background-size: cover;
 	text-shadow: 2px 2px gray;
-	background-image: url("dog.jpg");
+	background-image: url("https://github.com/albinalee/lab3/blob/main/dog.jpg?raw=true");
 
 }
 tr:nth-child(even) {
@@ -140,10 +140,10 @@ th, td {
 	position: absolute;
 }
 #t1-7 {top: 0;}
-#t8-10 {top: 362px;}
-#t11 {top: 962px;}
-#t12-13 {top: 1130px;}
-#t14 {top: 1298px;}
-#t15 {top: 1875px;}
-#t16 {top: 2043px;}
-#t17-36 {top: 2449px;}
+#t8-10 {top: 305px;}
+#t11 {top: 800px;}
+#t12-13 {top: 950px;}
+#t14 {top: 1100px;}
+#t15 {top: 1680px;}
+#t16 {top: 1840px;}
+#t17-36 {top: 2445px;}
