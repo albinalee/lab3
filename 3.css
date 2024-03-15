@@ -1,0 +1,149 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #e9e2ea;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	border-bottom: 8px solid #3b2270;
+}
+header ul {
+	list-style: none;
+	background: #47228c;
+}
+header ul li {
+	display: inline-block;
+	position: relative;
+}
+header ul li a {
+	display: block;
+	padding: 20px 25px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+header ul li ul.dropdown li {
+	display: block;
+}
+header ul li ul.dropdown {
+	width: 100%;
+	background: #4c228c;
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+header ul li a:hover {
+	background: #2f1166;
+}
+header ul li:hover ul.dropdown {
+	display: block;
+}
+.space {
+	height: 74px;
+}
+.title {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	padding-left: 30px;
+	height: 70px;
+	margin: 20px 10px 30px 10px;
+	line-height: 70px;
+	background: linear-gradient(to right, #7847ab, #a487d1);
+	box-shadow: 5px 5px #522f60;
+	text-shadow: 2px 2px gray;
+}
+.contents {
+	padding: 0 50px;
+}
+.heading {
+	color: red;
+}
+#heading-2 {
+	color: blue;
+}
+#heading-3 {
+	background-color: black;
+}
+#heading-4 {
+	border: 1px solid;
+	border-radius: 5px;
+}
+#heading-5:hover {
+	background-color: purple;
+	transition: 1s;
+}
+.task10 li {
+	list-style: square;
+}
+.link a {
+	font-size: 24px;
+}
+.link a:hover {
+	color: red;
+	transition: .5s;
+}
+iframe:hover {
+	opacity: 0.6;
+	transition: 1s;
+}
+table {	
+	border-collapse: collapse;
+	background-size: cover;
+	text-shadow: 2px 2px gray;
+	background-image: url("dog.jpg");
+
+}
+tr:nth-child(even) {
+	background-color: rgba(255, 255, 255, 0.4);
+	
+}
+tr:nth-child(odd) {
+	background-color: rgba(202, 196, 196, 0.7);
+}
+th {	
+	color: white;
+	background-color: #573661;
+}
+th, td {
+	font-size: 24px;
+	text-align: center;
+	padding: 15px 80px;
+	border: 1px solid black;
+}
+.dog {
+	border: 5px solid #7a4171;
+	display: block;
+	margin: 0 auto;
+}
+.Flash {
+	margin: 30px 0;
+	color: red;
+	font-size: 40pt;
+	font-weight: bold;
+	text-align: center;
+	animation: flash linear 1.2s infinite;
+	text-shadow: 2px 2px gray;
+}
+@keyframes flash {
+	0%{opacity: 1;}
+	50%{opacity: 0.1;}
+	100%{opacity: 1;}
+}
+.ref {
+	position: absolute;
+}
+#t1-7 {top: 0;}
+#t8-10 {top: 362px;}
+#t11 {top: 962px;}
+#t12-13 {top: 1130px;}
+#t14 {top: 1298px;}
+#t15 {top: 1875px;}
+#t16 {top: 2043px;}
+#t17-36 {top: 2449px;}
